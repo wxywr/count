@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+	<meta name="applicable-device" content="mobile">
+	<title>营养计算首页</title>
+	<link rel="stylesheet" href="css/count.css" type="text/css">
+</head>
+<body>
+	<div class="header">
+		<h1>肾功能不全饮食方案</h1>
+	</div>
+	<div class="main">
+		<form action="" id="form" method="post">
+			<div class="form-top">
+				<ul class="form-top-l">
+					<li>身高 (cm)</li>
+					<li>体重 (kg)</li>
+					<li>年龄 (岁)</li>
+					<li>性别 </li>
+				</ul>
+				<ul class="form-top-r">
+					<li><input type="text" class="height" placeholder="请输入您的身高" onfocus="this.placeholder='';" onblur="this.placeholder='请输入您的身高'"><span class="no"></span></li>
+					<li><input type="text" class="weight" placeholder="请输入您的体重" onfocus="this.placeholder='';" onblur="this.placeholder='请输入您的体重'"><span class="no"></span></li>
+					<li><input type="text" class="age" placeholder="请输入您的年龄" onfocus="this.placeholder='';" onblur="this.placeholder='请输入您的年龄'"><span class="no"></span></li>
+					<li><span class="man select sex"></span> 男 <span class="woman select sex"></span> 女</li>
+				</ul>
+			</div>
+			<div class="form-under">
+				<ul class="form-under-l">
+					<li>血肌酐单位</li>
+					<li>血肌酐值</li>
+				</ul>
+				<ul class="form-under-r">
+					<li><span class="select umon unit"></span> umon/L <span class="select mg unit"></span> mg/dl</li>
+					<li><input type="text" placeholder="请输入数字" onfocus="this.placeholder='';" onblur="this.placeholder='请输入数字'"><span class="wrong"></span> umon/L</li>
+				</ul>
+			</div>
+			<div class="report"><a href="diet.html">生成饮食报告</a></div>
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="js/count.js"></script>
+</html>

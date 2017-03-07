@@ -1,0 +1,332 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family:  Microsoft YaHei;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style:none
+}
+input,img{
+	vertical-align:middle;
+}
+.header{
+	width: 100%;
+	background-color: #1CBA66;
+}
+.header h1{
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 24px;
+}
+
+/*--------------------首页--------------------*/
+.form-top{
+	margin: 20px auto;
+}
+.form-under{
+	border: 1px dashed #1CBA66;
+	border-width: 1px 0 1px 0;
+	padding: 30px 0;
+}
+.form-top,.form-under{
+	overflow: hidden;
+}
+.form-top-l,.form-under-l,.form-under-r,.form-top-r{
+	float: left;
+}
+.form-under-l,.form-top-l{
+	margin-left: 5%;
+	font-size: 18px;
+	color: #000;
+}
+.form-top-l{
+	margin-right: 30px;
+}
+.form-under-l{
+	margin-right: 20px;
+}
+#form ul li{
+	line-height: 50px;
+}
+.form-top input[type="text"]{
+	width: 190px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #333;
+	border-width: 0 0 1px 0;
+	outline: none;
+	font-size: 18px;
+	background-color: #fff;
+	text-indent: 5px;
+}
+form ::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: 18px;
+}
+.form-under-r input[type="text"]{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #333;
+	border-width: 0 0 1px 0;
+	outline: none;
+	font-size: 18px;
+	background-color: #fff;
+	text-indent: 5px;
+}
+form .select{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: -2px;
+	background: url(../images/select.png) no-repeat;
+	background-size: 90%;
+}
+.form-top-r .man{
+	background-position: 1px -18px;
+}
+.form-top-r .woman{
+	background-position: 1px 1px;
+	margin-left: 40px;
+}
+.form-under-r .umon{
+	background-position: 1px -18px;
+}
+.form-under-r .mg{
+	background-position: 1px 1px;
+	margin-left: 30px;
+}
+.report a{
+	display: block;
+	width: 70%;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	text-align: center;
+	margin: 80px auto;
+	background-color: #2F9330;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 10px;
+	border: none;
+}
+.form-top-r li,.form-under-r li{
+	position: relative;
+}
+.error,.err{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 5px;
+	bottom: 15px;
+	background: url(../images/error.png) no-repeat;
+	background-size: 80%;
+}
+.err{
+	left: 55%;
+}
+
+/*----------------------饮食报告-----------------*/
+.info{
+	background-color: #F2FBF6;
+	padding: 20px 0;
+	border-bottom: 1px solid #737373;
+}
+.info .time{
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+}
+.info .info-wrap{
+	width: 90%;
+	margin: 0 auto;
+}
+.info p{
+	font-size: 16px;
+	margin: 25px 0;
+	font-weight: 600;
+	color: #010A05;
+}
+.info span{
+	color: #1CBA66;
+}
+.list{
+	background-color: #fff;
+	padding: 20px 0;
+}
+.list h2{
+	color: #1CBA66;
+	font-size: 18px;
+	width: 95%;
+	margin-left: 5%;
+	height: 30px;
+	line-height: 25px;
+	border: 1px solid #1CBA66;
+	border-width: 0 0 1px 0;
+} 
+.list h3{
+	font-size: 18px;
+	color: #000;
+}
+.list a{
+	color: #0099FF;
+	font-size: 16px;
+	font-weight: 500;
+}
+.list ul span{
+	font-size: 16px;
+}
+.list .hun,.su,.hot{
+	width: 95%;
+	margin-left: 5%;
+}
+.list .hun,.su{
+	border-bottom: 1px dashed #333;
+}
+.list ul li{
+	overflow: hidden;
+	line-height: 35px;
+}
+.list ul .hun-l{
+	float: left;
+}
+.list ul .hun-r{
+	float: right;
+	margin-right: 5%;
+}
+.list i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background: url(../images/food.png) no-repeat;
+	background-size: 90%;
+	margin:  0 5px 0 20px;
+}
+.list i.egg{
+	background-position: 1px -23px;
+}
+.list i.greens{
+	background-position: -2px -44px;
+}
+.list i.fruits{
+	background-position: -2px -65px;
+}
+.list i.rice{
+	background-position: -2px -84px;
+}
+.list i.flour{
+	background-position: -2px -105px;
+}
+.list li .btm{
+	margin-left: 23px;
+}
+
+/*---------------------食物清单----------------------*/
+.food-sorts{
+	background-color: #fff;
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid #333;
+	padding: 20px 7% 0px 5%;
+}
+.food-sorts li{
+	float: left;
+	color: #000;
+	font-size: 18px;
+	padding-bottom: 3px;
+}
+.food-sorts .second{
+	margin-left: 15%;
+}
+.food-sorts .last{
+	float: right;
+}
+.three-columns{
+	width: 100%;
+}
+.three-columns .eat-top,.eat-btm{
+	background-color: #fff;
+	margin-top: 5px;
+	border-left: 5px solid #1CBA66;  
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+.eat ul li{
+	border-bottom: 1px dashed #999;
+	overflow: hidden;
+	font-size: 14px;
+	padding: 10px 0;
+}
+.eat ul li .eat-l{
+	float: left;
+	width: 70%;
+}
+.eat ul li .eat-r{
+	float: right;
+	margin-right: 3%;
+}
+.eat .tit{
+	border-bottom: 1px solid #999;
+	font-size: 16px;
+	padding: 15px 0 5px;
+	overflow: hidden;
+}
+.eat ul li,.tit{
+	margin-left: 3%;
+}
+.eat ul .last{
+	border-bottom: none;
+}
+.eat .tit .red{
+	color: red;
+	display: inline-block;
+	float: right;
+	margin-right: 3%;
+}
+.eat .tit i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: -4px;
+	margin-right: 5px;
+	background: url(../images/food.png) no-repeat;
+	background-size: 90%;
+}
+.eat .tit .dan{
+	background-position: 1px -21px;
+}
+.eat .tit .fruit{
+	background-position: 1px -64px;
+}
+.eat .tit .greens{
+	background-position: 1px -44px;
+}
+.eat .tit .oil{
+	background-position: 1px -127px;
+}
+.three-columns .change{
+	display: none;
+}
+.download{
+	width: 60%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #2F9330; 
+	margin: 50px auto;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 5px;
+	border-radius: 5px;
+}
