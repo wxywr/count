@@ -27,16 +27,16 @@ input[3].onblur=function(){
 }
 
  //没有输入任何内容时错误图标显示
-btn.onclick=function(){
-	for(var m=0;m<input.length;m++){
-		if(input[m].value.length < 1){
-			for(var n=0;n<no.length;n++){
-				no[n].className="error";
-			}
-			for(var x=0;x<wrong.length;x++){
-				wrong[x].className="err";
-			}
-		}
-	}
-	return false;
-}
+// btn.onclick=function(){
+// 	for(var m=0;m<input.length;m++){
+// 		if(input[m].value.length < 1){
+// 			for(var n=0;n<no.length;n++){
+// 				no[n].className="error";
+// 			}
+// 			for(var x=0;x<wrong.length;x++){
+// 				wrong[x].className="err";
+// 			}
+// 		}
+// 	}
+// 	return false;
+// }

@@ -235,22 +235,18 @@ form .select{
 /*---------------------食物清单----------------------*/
 .food-sorts{
 	background-color: #fff;
-	overflow: hidden;
 	width: 100%;
 	border-bottom: 1px solid #333;
-	padding: 20px 7% 0px 5%;
+	padding: 20px 5% 0 5%;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
 }
 .food-sorts li{
-	float: left;
 	color: #000;
 	font-size: 18px;
 	padding-bottom: 3px;
-}
-.food-sorts .second{
-	margin-left: 15%;
-}
-.food-sorts .last{
-	float: right;
 }
 .three-columns{
 	width: 100%;
