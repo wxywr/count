@@ -6,7 +6,7 @@ for(var i = 0;i<sex.length;i++){
 		for(var j=0;j<sex.length;j++){
 			sex[j].style.backgroundPosition='1px 1px';
 		}
-		this.style.backgroundPosition='1px -18px';
+		this.style.backgroundPosition='1px -17px';
 	}
 }
 
@@ -17,7 +17,7 @@ for(var i = 0;i<unit.length;i++){
 		for(var j=0;j<unit.length;j++){
 			unit[j].style.backgroundPosition='1px 1px';
 		}
-		this.style.backgroundPosition='1px -18px';
+		this.style.backgroundPosition='1px -17px';
 	}
 }
 
