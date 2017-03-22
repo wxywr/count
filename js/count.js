@@ -11,14 +11,16 @@ for(var i = 0;i<sex.length;i++){
 }
 
 var unit = document.querySelectorAll('.unit');
-for(var i = 0;i<unit.length;i++){
-	unit[i].index=i;
-	unit[i].onclick=function(){
-		for(var j=0;j<unit.length;j++){
-			unit[j].style.backgroundPosition='1px 1px';
-		}
-		this.style.backgroundPosition='1px -17px';
-	}
+var dw = document.getElementsByClassName('dw')[0];
+unit[0].onclick=function(){
+	unit[0].style.backgroundPosition='1px -17px';
+	unit[1].style.backgroundPosition='1px 1px';
+	dw.innerHTML='umon/L';
+}
+unit[1].onclick=function(){
+	unit[1].style.backgroundPosition='1px -17px';
+	unit[0].style.backgroundPosition='1px 1px';
+	dw.innerHTML='mg/dl';
 }
 
 
